@@ -16,9 +16,12 @@ public class IfChallenge {
     public String dayOfWeek(int dayAsNum) {
         if (dayAsNum < 1 || dayAsNum > 7) {
             return "Not a valid day of week";
+        } else if (dayAsNum == 1) {
+            return "Monday";
         } else {
             return "Not a valid day of week";
         }
+
 
     }
 
