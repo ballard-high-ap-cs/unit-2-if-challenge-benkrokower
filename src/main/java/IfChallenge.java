@@ -18,6 +18,18 @@ public class IfChallenge {
             return "Not a valid day of week";
         } else if (dayAsNum == 1) {
             return "Monday";
+        } else if (dayAsNum == 2) {
+            return "Tuesday";
+        } else if (dayAsNum == 3) {
+            return "Wednesday";
+        } else if (dayAsNum == 4) {
+            return "Thursday";
+        } else if (dayAsNum == 5) {
+            return "Friday";
+        } else if (dayAsNum == 6) {
+            return "Saturday";
+        } else if (dayAsNum == 7) {
+            return "Sunday";
         } else {
             return "Not a valid day of week";
         }
